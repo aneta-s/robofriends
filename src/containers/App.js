@@ -14,17 +14,25 @@ class App extends Component {
       searchfield: "",
     };
   }
-  /* componentDidMount() {
+  componentDidMount() {
+    this.setState({ robots: robots });
+    console.log("componentDidMount");
+  }
+/*   componentDidMount() {
+    fetch("https://jsonplaceholder.typicode.com/users")
+      .then(response => response.json())
+      .then(users => {
+        this.setState ({robots: users })});
+  } */
+
+  /* OR componentDidMount() {
     fetch("https://jsonplaceholder.typicode.com/users")
       .then((response) => response.json())
       .then((users) => {
         this.setState({ robots: users });
       });
   }  */
-  componentDidMount() {
-    this.setState({ robots: robots });
-    console.log("componentDidMount");
-  }
+
   onSearchChange = (event) => {
     this.setState({ searchfield: event.target.value });
   };
