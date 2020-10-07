@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Helmet } from "react-helmet";
-import "babel-polyfill";
 import CardList from "../components/CardList";
 import SearchBox from "../components/SearchBox";
 import "./App.css";
@@ -65,7 +64,7 @@ Technologies used: React.js, RESTful API, JSON, Git, Visual Studio Code, NPM."
           />
           <meta
             itemProp="image"
-            content="https://github.com/aneta-s/robofriends/blob/master/public/robofriends-seo.png"
+            content="https://imgur.com/nMjDh3g"
           />
           {/* Facebook Meta Tags */}
           <meta
@@ -84,7 +83,7 @@ Technologies used: React.js, RESTful API, JSON, Git, Visual Studio Code, NPM."
           />
           <meta
             property="og:image"
-            content="https://github.com/aneta-s/robofriends/blob/master/public/robofriends-seo.png"
+            content="https://imgur.com/nMjDh3g"
           />
           {/* Twitter Meta Tags */}
           <meta name="twitter:card" content="summary_large_image" />
@@ -99,7 +98,7 @@ Technologies used: React.js, RESTful API, JSON, Git, Visual Studio Code, NPM."
           />
           <meta
             name="twitter:image"
-            content="https://github.com/aneta-s/robofriends/blob/master/public/robofriends-seo.png"
+            content="https://imgur.com/nMjDh3g"
           />
           {/* Meta Tags Generated via http://heymeta.com */}
         </Helmet>
