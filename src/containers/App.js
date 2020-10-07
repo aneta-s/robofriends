@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import 'babel-polyfill';
 import CardList from "../components/CardList";
 import SearchBox from "../components/SearchBox";
 import "./App.css";
