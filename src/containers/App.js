@@ -47,6 +47,8 @@ class App extends Component {
       <h1>Loading</h1>
     ) : (
       <div className="tc">
+              <h1 className="f1">RoboFriends</h1>
+
         <Helmet>
           {/* HTML Meta Tags */}
           <title>React app Robofriends from scratch.</title>
@@ -102,7 +104,6 @@ Technologies used: React.js, RESTful API, JSON, Git, Visual Studio Code, NPM."
           />
           {/* Meta Tags Generated via http://heymeta.com */}
         </Helmet>
-        <h1 className="f1">RoboFriends</h1>
         <SearchBox searchChange={this.onSearchChange} />
         <Scroll>
           <ErrorBoundry>
